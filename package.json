@@ -1,0 +1,30 @@
+{
+  "name": "eduvantaa",
+  "version": "1.0.0",
+  "description": "server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wer9810/eduvantaa.git"
+  },
+  "author": "Aleksandros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wer9810/eduvantaa/issues"
+  },
+  "homepage": "https://github.com/wer9810/eduvantaa#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "handlebars": "^4.5.1",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "i": "^0.3.6",
+    "nodemon": "^1.19.4"
+  }
+}
